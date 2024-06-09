@@ -52,6 +52,7 @@ class EditPage extends StatelessWidget {
                     ),
                     const SizedBox(height: 20),
                     TextFormField(
+                      textCapitalization: TextCapitalization.words,
                       controller: nameController,
                       decoration: const InputDecoration(
                           label: Text('Name'),
@@ -68,6 +69,7 @@ class EditPage extends StatelessWidget {
                     ),
                     const SizedBox(height: 20),
                     TextFormField(
+                      textCapitalization: TextCapitalization.characters,
                       controller: batchController,
                       decoration: const InputDecoration(
                           label: Text('Batch'),
@@ -84,6 +86,7 @@ class EditPage extends StatelessWidget {
                     ),
                     const SizedBox(height: 20),
                     TextFormField(
+                      textCapitalization: TextCapitalization.words,
                       controller: domainController,
                       decoration: const InputDecoration(
                           label: Text('Domain'),
