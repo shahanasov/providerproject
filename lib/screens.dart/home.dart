@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // StudentProvider studentProvider = Provider.of<StudentProvider>(context);
-    // while using valuelistenable builder
+    // while using valuelistenable builder or provider.of
 
     
     return Scaffold(

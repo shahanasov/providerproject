@@ -125,16 +125,6 @@ class Register extends StatelessWidget {
     }
   }
 
-  Future imagesaving() async {
-    // late XFile _selectedImage;
 
-    final image = ImagePicker();
-    XFile? returendImage = await image.pickImage(source: ImageSource.gallery);
-
-    if (returendImage == null) return;
-    String imagepath =returendImage.path;
-    
-
-  }
 
 }
